@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+/*:root {
+  --primaryColor:black;
+  --primaryHoverColor: #C30E4C;
+  --secondaryColor: rgba(7, 15, 36, 1);
+  --baseColor: var(--secondaryColor);
+  --baseFont: 'Poppins', sans-serif;
+  --regular: 400;
+  --medium: 500;
+  --bold:800;
+  --lightBg:lightblue;
+}*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*body {
+ /* font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;*/
+  /*color: black;*/
+  background-color:rgba(229, 229, 229, 1);
+}?
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+a, .btn {
+  -webkit-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+  text-decoration: none;
+}
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.primaryColor {
+  color: var(--primaryColor);
+}
+.secondaryColor {
+  color: var(--secondaryColor);
+}
+.primaryBg {
+  background-color: var(--primaryColor);
+}
+.secondaryBg {
+  background-color: var(--secondaryColor);
+}
+.lightBg {
+  background-color: var(--lightBg);
+}
+li {
+    display: inline-block;
+    padding: 0px 91px 4px 12px;
+}
+ul {
+    text-align: center;
+}
+a.btn.btnstyle {
+    background-color: #E15861;
+    color: #fff;
+    padding: 14px 40px;
+}
+.logo h1 {
+    font-weight: bold;
+    color: #E15861;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.logo span{
+  color:black;
+}
+.book h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 221px 0px;
+}
+section.baner {
+    background-image: url('../images/good.png');
+    background-repeat: no-repeat;
+}
+.headermain {
+    position: fixed;
+    top: 10px;
+    left: 0px;
+    width: 100%;
+}
+.book p {
+    margin: -100px 0 68px 0px;
+    font-size: 23px;
+}
+.search {
+	background: rgba(255, 250, 250, 1);
+	padding: 7px 17px 21px 7px;
+	width: 770px;
+	margin-left: auto;
+}
+.corners {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.corners span{
+  color:#E15861;
+}
+input.form-control {
+    border: none;
+}
+.action {
+    padding: 15px 7px 9px 0px;
+
+}
+.sheet {
+    padding: 9px 12px 107px 13px;
+    border: solid 1px;
+    width: 493px;
+}
+span {
+    color: #E15861;
+}
+.sheet p {
+    font-size: 15px;
+}
+.all.distance {
+    padding: 145px 0 0 0;
+    background-color: #E5E5E5;
+}
+.sheet {
+    position: relative;
+    padding: 9px 12px 107px 13px;
+    border: #FC8DAE 1px;
+    width: 493px;
+    box-shadow: 0px 9px 13px 0px;
+}
+.botn.btnstyle {
+	background-color: #e15861;
+	height: 65px;
+	width: 145px;
+	color: #fff;
+}
+.door {
+    width: 44px;
+    height: 43px;
+    box-shadow: -2px 3px 17px -6px;
+    border-radius: 21px 20px 22px 23px;
+    padding: 5px 4px 5px 3px;
+}
+.go {
+    padding: 0px 0px 38px 53px;
+}
+
+.you {
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.backgroundcolor {
+    background-color: #FBEDE5;
+}
+.corns {
+    position: relative;
+    background-color: #fff;
+    width: 491px;
+    height: 354px;
+    top: 488px;
+    left: 85px;
+    box-shadow: 0px 5px 24px 3px rgb(211 113 64 / 92%);
+}
+.wild {
+    position: absolute;
+}
+.seets h1 {
+    padding: 11px 4px 15px 0px;
+    font-size: 54px;
+    text-transform: capitalize;
+}
+.seets p {
+    font-size: 25px;
+    padding: 44px 0px;
+}
+
+.our {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.corns p {
+    padding: 74px 20px 10px 41px;
+    background-color: #FBEDE5;
+}
+.explore {
+    text-align: center;
+    padding: 180px 0px 0px 0px;
+}
+.explore h1 {
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: capitalize;
+}
+.explore p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+a.botn.btnstyle {
+    background-color: rgba(225, 88, 97, 1);
+    color: #fff;
+    width: 172px;
+    height: 82px;
+    text-align: center;
+    padding: 27px 0px 0px 7px;
+}
+.passages {
+    background-color: rgba(251, 237, 229, 1);
+}
+.footerdistanc {
+    padding: 328px 0 0;
+}
+.provide {
+    padding: 180px 0;
+}
+.seets {
+    height: 714px;
+}
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+
+}
+.Leran .botn {
+    border: none;
+    background-color: #e15861;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    text-align: center;
+    width: 160px;
+}
+.ipt {
+    margin: 0 auto 40px;
+    max-width: 700px;
+    position: relative;
+}
+.ipt input.control {
+    /* position: relative; */
+    /* top: 32px; */
+    /* left: 76px; */
+    width: 100%;
+    height: 90px;
+    border: none;
+    padding: 15px 180px 15px 15px;
+    font-size: 18px;
+}
+button.btn.btnstyle {
+    background-color: #e15861;
+    width: 160px;
+    color: #fff;
+    top: 15px;
+    left: 15px;
+    bottom: 19px;
+    position: relative;
+    height: 66px;
+}
+
+@media (max-width:1399px){
+
+}
+@media (max-width:1199px) {
+  li {
+    padding: 0px 45px 4px 0px;
+ }
+ .book h1 {
+    padding: 132px 0px;
+  }
+  .seets h1 {
+    padding: 11px 4px 15px 0px;
+    /* font-size: 54px; */
+    text-transform: capitalize;
+    font-weight: 900;
+  }
+  .backgroundcolor {
+    padding: 122px 0;
+}
+.ipt input.control {
+
+    width: 503px;
+
+  }
+  .Leran {
+
+    left: 548px;
+  }
+}
+
+@media (max-width:991px) {
+  li {
+    display: inline-block;
+    padding: 0px 5px 0px 12px;
+  }
+  .backgroundcolor {
+    padding: 45px 0;
+}
+.explore {
+    padding: 60px 0px 0px 0px;
+  }
+  .ipt input.control {
+    left: 76px;
+  }
+  .book h1 {
+    font-size: 49px;
+  }
+  .search {
+    padding: 14px 12px 8px 20px;
+    margin: 172px 11px 36px 100px;
+}
+.passages {
+    width: 343px;
+}
+.corners {
+    width: 411px;
+    text-transform: capitalize;
+  }
+  .seets h1 {
+    font-size: 34px;
+}
+.seets p {
+    /* font-size: 25px; */
+    padding: 3px 0px;
+}
+.corns {
+    width: 376px;
+    height: 221px;
+    top: 366px;
+    left: 72px;
+}
+.backgroundcolor {
+    padding: 1px 0;
+}
+.Leran {
+    position: relative;
+    /* padding: 31px 0px  4px 0px; */
+    /* top: -94px; */
+    /* left: 794px; */
+    /* left: -44px; */
+    margin: -58px 8px 6px -145px;
+}
+
+}
+
+@media (max-width:789px) {
+  li {
+    display: inline-block;
+    padding: 0px 28px 0px 0px;
+}
+}
+
+@media (max-width:575px) {}
+@media (max-width:374px){
+
+
+}
